@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoCare Hub - SignUp</title>
+    <link rel="shortcut icon" href="./images/car.png" type="image/x-icon">
+
 </head>
 
-<body style="background-color: rgb(246, 242, 242);">
+<body>
   
     <form action="/submit_data" style="width: 100%; height: 100%; color: #000;">
         <center>
@@ -16,7 +18,9 @@
                 style="color: rgb(26, 3, 128); font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 30px;">Care</span><span
                 style="color: rgb(255, 0, 0); font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 30px;">Hub</span>
             <h3>Create your AutoCare Hub account</h3>
-            
+            <div style="width: 100%; height:100px;">
+                <img src="./images/repair.jpg" width="200px" height="100%"  alt="">
+            </div>
                 <table cellspacing="0" cellpadding="10" border="2" style="text-align: justify;">
                     <tr>
                         <th><label for="name">Name</label></th>
@@ -39,8 +43,8 @@
                         <td><input type="password" name="password" placeholder="Create Password" required></td>
                     </tr>
                     <tr>
-                        <th><label for="password">Confirm Password</label></th>
-                        <td><input type="password" name="password" placeholder="Confirm Password" required></td>
+                        <th><label for="confirm-password">Confirm Password</label></th>
+                        <td><input type="password" name="confirm-password" placeholder="Confirm Password" required></td>
                     </tr>
                     <tr>
                         <th colspan="2"><button type="submit" style="background-color: aqua; font-weight: bold;">SignUp</button>

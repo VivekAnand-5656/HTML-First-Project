@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car-Service-Management-Form</title>
+    <link rel="shortcut icon" href="./images/car.png" type="image/x-icon">
+
 </head>
 <body style="background: #cdc9c9;">
-    <form action="/html/Startup/index.html" style="background: #cdc9c9; display: flex; flex-direction: column;  margin: auto; width:400px;">
-        <h1 style="text-align: center; border: 2px solid #000;">
+    <form action="/html/Startup/complete.html" style="background: #cdc9c9; display: flex; flex-direction: column;  margin: auto; width:400px;">
+        <h1 style="text-align: center;">
             <span
                 style="color: red; font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 30px; text-align: center;">Auto</span><span
                 style="color: rgb(26, 3, 128); font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 30px;">Care</span><span
@@ -23,7 +25,7 @@
             </tr>
             <tr>
                 <th><label for="number">Phone Number</label></th>
-                <td><input type="number" name="number" id="name" placeholder="Enter phone number" required></td>
+                <td><input type="number" name="number" id="number" maxlength="10" placeholder="Enter phone number" required></td>
             </tr>
             <tr>
                 <th><label for="email">Email:</label></th>
@@ -34,7 +36,7 @@
             </tr>
             <tr>
                 <th><label for="vehicalnumber">Vehical Number</label></th>
-                <td><input type="number" name="vehicalnumber" placeholder="Vehical Number" required></td>
+                <td><input type="text" name="vehicalnumber" placeholder="Vehical Number" required></td>
             </tr>
             <tr>
                 <th><label for="brand">Brand</label></th>
@@ -46,7 +48,7 @@
             </tr>
             <tr>
                 <th><label for="chassis">Chassis Number</label></th>
-                <td><input type="text" name="chassis" required></td>
+                <td><input type="text" name="chassis" placeholder="Chassis Number" required></td>
             </tr>
             <tr>
                 <th colspan="2" style="text-align: center;">🛠️ Service Details Section</th>
@@ -72,7 +74,7 @@
             </tr>
             <tr>
                 <th><label for="name">Service Advisor Name</label></th>
-                <td><input type="text" name="name"></td>
+                <td><input type="text" placeholder="Advisor Name" name="name"></td>
             </tr>
             <tr>
                 <th><label for="Pickup_Drop">Pickup & Drop Required </label></th>
